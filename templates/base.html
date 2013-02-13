@@ -9,7 +9,7 @@
 <div id="sidebar">
     {% block sidebar %}
         <ul>
-            <li><a href="/main">Home</a></li>
+            <li><a href="/">Home</a></li>
 
             {% if user.is_authenticated %}
                 <li><a href="/accounts/logout">Logout</a></li>
@@ -21,7 +21,12 @@
 </div>
 
 <div id="content">
-    {% block content %}{% endblock %}
+    {% block content %}
+    
+    
+    {% endblock %}
+
+
 </div>
 </body>
 </html>

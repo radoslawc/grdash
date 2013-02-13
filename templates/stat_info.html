@@ -13,7 +13,11 @@
 
     {% if user.is_authenticated %}
         <p>Welcome, {{ user.username }}. Thanks for logging in.</p>
-    {% else %}
+
+
+<img src="http://127.0.0.1:7080/render/?width=586&height=308&_salt=1360765266.241&from=-30minutes&target=carbon.agents.debiangraph-a.cache.queries" alt >
+
+	{% else %}
         <p>Welcome, new user. Please log in.</p>
     {% endif %}
     {% endblock %}

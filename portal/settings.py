@@ -155,4 +155,4 @@ LOGGING = {
         },
     }
 }
-LOGIN_REDIRECT_URL='/main/'
+LOGIN_REDIRECT_URL='/'
